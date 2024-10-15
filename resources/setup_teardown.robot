@@ -1,5 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
+Library    FakerLibrary
+Resource    pages/cadastro.robot
 
 *** Keywords ***
 Dado que eu acesse o Organo
